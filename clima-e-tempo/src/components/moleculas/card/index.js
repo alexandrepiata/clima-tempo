@@ -64,7 +64,7 @@ function Card() {
         <Div>Temperatura Máxima: {data.main.temp_max | ""}º</Div>
         <Div>Temperatura Mínima: {data.main.temp_min | ""}º</Div>
         <Div>Pressão: {data.main.pressure | ""} hPa</Div>
-        <Div>Humidade: {data.main.humidity | ""}%</Div>
+        <Div>Umidade: {data.main.humidity | ""}%</Div>
         <Div>Vento: {data.wind.speed} M/s</Div>
       </InfoContainer>
       <Devider />
